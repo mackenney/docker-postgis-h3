@@ -8,7 +8,7 @@ RUN apt-get update \
         git \
         make \
         pgxnclient \
-        postgresql-server-dev-all \
+        postgresql-server-dev-11 \
     && pgxn install h3 \
     && apt-get remove -y \
         cmake \
