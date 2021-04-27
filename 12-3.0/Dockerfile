@@ -19,4 +19,4 @@ RUN apt-get update \
     && apt-get clean \
     && rm -rf /var/lib/apt/lists/*
 
-COPY ./initdb-h3.sh /docker-entrypoint-initdb.d/11_h3.sh
+COPY ./initdb-h3.sh /docker-entrypoint-initdb.d/1_h3.sh
