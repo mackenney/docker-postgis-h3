@@ -10,6 +10,7 @@ To run: `docker run --name postgres-h3 -p 5432:5432 -v postgres-h3-volume:/var/l
 
 Example docker run:
 docker run\
+    -it
     --name postgres-h3-test\
     -p 54322:5432\
     -v dwh_backup:/var/lib/postgresql/data\
